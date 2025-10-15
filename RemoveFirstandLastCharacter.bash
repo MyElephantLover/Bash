@@ -10,7 +10,7 @@ function removeChar() {
     echo ""
   else
     echo "${str:1:-1}" # print the string with the first and last character removed
-    fii
+    fi
 }
 # call the function with the first argument passed to the script
 removeChar $1
