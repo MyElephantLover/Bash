@@ -9,8 +9,8 @@ function removeChar() {
   if ["$len" -le 2]; then # if the value of length is less or equal to 2
     echo ""
   else
-    echo "${str:1:-1}"
-    fi
+    echo "${str:1:-1}" # print the string with the first and last character removed
+    fii
 }
 # call the function with the first argument passed to the script
 removeChar $1
